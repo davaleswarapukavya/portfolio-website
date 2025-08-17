@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya Sri - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fdfdfd;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 1.5rem;
+        }
+        h2 {
+            color: #d4af37;
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        header {
+            background: #0a1a2f;
+            color: white;
+            padding: 1rem 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav a {
+            margin: 0 10px;
+            font-weight: bold;
+            color: white;
+        }
+        nav a:hover {
+            color: #d4af37;
+        }
+        .hero {
+            background: #0a1a2f;
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        .hero .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #d4af37;
+            color: #0a1a2f;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .hero .btn:hover {
+            background: white;
+            color: #0a1a2f;
+        }
+        .project {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .project h3 {
+            color: #0a1a2f;
+        }
+        footer {
+            background: #0a1a2f;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Kavya Sri</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#work">Work Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <h2>Cyber Security Student</h2>
+            <p>Passionate about building secure and innovative solutions using Python, AWS, and MySQL.</p>
+            <a class="btn" href="mailto:kavyasridavaleswarapu@gmail.com">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Final-year Cyber Security student with skills in Python, MySQL, AWS, HTML, and CSS. Experienced in backend API development, threat detection, and cloud deployments. Passionate about building secure and efficient software solutions.</p>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.Tech in CSE (Cyber Security)</strong>, GIET, Rajahmundry — CGPA: 7.86 (2022–2026)</li>
+            <li><strong>Intermediate (MPC)</strong>, Sri Gayathri Junior College, Tuni — 779/1000 (2020–2022)</li>
+            <li><strong>SSC</strong>, Sri Prakash Vidya Niketan, Tuni — 592/600 (2019–2020)</li>
+        </ul>
+    </section>
+
+    <!-- ===== WORK EXPERIENCE ===== -->
+    <section id="work" class="container">
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Python Developer Intern</strong>, Skilldzire (May–Jun 2025) — Worked on backend API development using Python. <a href="https://drive.google.com/file/d/1-xEXr1xCDdNkLo4quT3JT8WWxKgmc75G/view?usp=drivesdk" target="_blank">Certificate</a></li>
+            <li><strong>Cyber Security Intern</strong>, Aimer Society (May–Jun 2024) — Performed threat detection and mitigation in simulated environments. <a href="https://drive.google.com/file/d/100be9GIqGeO-1miSX7VuzCaVzB6-GsMT/view?usp=drivesdk" target="_blank">Certificate</a></li>
+            <li><strong>AWS + RedHat Intern</strong>, Techwing (May–Jul 2025) — Deployed AWS services and managed Red Hat-based server environments.</li>
+        </ul>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>Developed in Python using SQLite for secure CRUD operations with parameterized queries.</p>
+            <a href="https://github.com/davaleswarapukavya/Library-Management-System" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Password Generator Tool</h3>
+            <p>Python-based tool generating strong, customizable passwords using random shuffling.</p>
+            <a href="https://github.com/davaleswarapukavya/password-generator" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Languages: Python, MySQL</li>
+            <li>Web: HTML, CSS</li>
+            <li>Tools: Git/GitHub, VS Code, Google Colab, Kali Linux</li>
+            <li>Cloud: AWS (EC2, S3), AWS Console</li>
+            <li>Other: Networking, DBMS, Query Optimization</li>
+        </ul>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section id="certificates" class="container">
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/105EFhzYCcJ5k5QDxCJ40fGPmrQ_FrBDS/view?usp=drivesdk" target="_blank">Introduction to Cyber Security – Cisco Networking Academy</a></li>
+            <li><a href="https://drive.google.com/file/d/10EyJUFwbeCxz5RawHyzCXURwe0yxqpuQ/view?usp=drivesdk" target="_blank">Python Essentials 2 – Cisco Networking Academy</a></li>
+        </ul>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:kavyasridavaleswarapu@gmail.com">kavyasridavaleswarapu@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kavya-sri-davaleswarapu-4a66662a1" target="_blank">Profile</a></p>
+        <p>GitHub: <a href="https://github.com/davaleswarapukavya" target="_blank">Profile</a></p>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Kavya Sri Davaleswarapu | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
